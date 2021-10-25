@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.protobuf.example;
+message SimpleMessage {
+  int32 id = 1;
+  bool is_simple = 2;
+}
